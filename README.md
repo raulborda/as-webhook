@@ -1,6 +1,10 @@
 # as-webhook
 
-Para probar, utiilizar cualquier objeto json.
+`npm install`
+
+`npm start` o ... `node .`
+
+Una vez que el server levanta, hacer una petición `POST` a `http://localhost:3000/webhook` con cualquier objeto json...
 
 ```
 {
@@ -16,5 +20,5 @@ Para probar, utiilizar cualquier objeto json.
     "ts_event": 1564479555,
     "URL": "www.example.com",
     "ts": 1564466956
-},
+}
 ```
